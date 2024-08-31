@@ -1,0 +1,36 @@
+<div class="service" id="service">
+  <h1 class="title">Services we offer</h1>
+  <div class="slider">
+    <div class="slider-container">
+      <!-- ใช้ *ngFor และ ngStyle เพื่อแสดงการ์ดเฉพาะที่อยู่ในช่วงของ currentIndex -->
+      <div *ngFor="let service of serveiceData; let i = index" class="card">
+        <img [src]="service.imageSrc" alt="" width="58" />
+        <p class="card-title">{{ service.title }}</p>
+        <p class="card-text">{{ service.text }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="control">
+    <button (click)="prevSlide()" class="btn">Previous</button>
+    <button (click)="nextSlide()" class="btn">Next</button>
+  </div>
+</div>
+
+<!-- <div class="card">
+      <img src="assets/service/1.svg" alt="" width="58" />
+      <p class="card-title">Web Design & Development</p>
+      <p class="card-text">
+        A Website is an extension of yourself and we can help you to express it
+        properly. Your website is your number one marketing asset because we
+        live in a digital age.
+      </p>
+    </div>
+    <div class="card">
+      <img src="assets/service/1.svg" alt="" width="58" />
+      <p class="card-title">Web Design & Development</p>
+      <p class="card-text">
+        A Website is an extension of yourself and we can help you to express it
+        properly. Your website is your number one marketing asset because we
+        live in a digital age.
+      </p>
+    </div> -->

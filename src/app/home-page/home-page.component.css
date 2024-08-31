@@ -1,9 +1,9 @@
 .home-page {
-  height: 800px;
+  height: 657px;
 }
 .homepage-sub {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 69px;
 }

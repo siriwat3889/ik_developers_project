@@ -1,0 +1,86 @@
+.service {
+  height: 602px;
+  font-family: Inter;
+  background: rgba(249, 249, 255, 1);
+}
+.title {
+  margin-top: 0;
+  padding-top: 42px;
+  padding-bottom: 63px;
+  text-align: center;
+  color: rgba(26, 32, 44, 1);
+  size: 35px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px;
+  width: 333px;
+  height: 287px;
+  top: 39px;
+  left: 373px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid;
+  border-radius: 7px;
+  border-image-source: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  border-image-slice: 1;
+  background-color: rgb(255, 255, 255);
+}
+.card-title {
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  -webkit-background-clip: text; /* ทำให้พื้นหลังครอบคลุมเฉพาะส่วนข้อความ */
+  color: transparent;
+  size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.card-text {
+  color: rgba(74, 85, 104, 1);
+  size: 14px;
+  width: 345px;
+  gap: 15px;
+  margin-top: 0px;
+}
+div img {
+  margin-bottom: 15px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 700ms ease;
+  gap: 20px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(350deg, #f76680 20%, #57007b 100%);
+  border: none;
+  gap: 15px;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+}
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.active-card {
+  padding: 10px;
+}
