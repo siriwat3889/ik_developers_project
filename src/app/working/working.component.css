@@ -1,0 +1,78 @@
+.page {
+  height: 100vh;
+  font-family: Inter;
+}
+.head-title {
+  width: 474px;
+  height: 133px;
+  gap: 20px;
+  opacity: 0px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 124px;
+}
+.title {
+  color: rgba(113, 128, 150, 1);
+  width: 535px;
+  height: 181px;
+  top: 196px;
+  left: 96px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 56px;
+  margin-top: 51px;
+  margin-bottom: 53px;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 181px;
+}
+.card-image {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 76px;
+}
+.card-image-sub {
+  display: flex;
+  flex-direction: column;
+}
+.text-pos {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  margin-bottom: 0px;
+  color: rgba(160, 174, 192, 1);
+}
+.active {
+  color: rgba(87, 0, 123, 1);
+}
+.sActive {
+  color: rgba(0, 0, 0, 1);
+}
+.text-pos1 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.44px;
+  text-align: center;
+  color: rgba(203, 213, 224, 1);
+}

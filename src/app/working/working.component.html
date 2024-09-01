@@ -1,0 +1,49 @@
+<div class="page">
+  <div class="container">
+    <img src="assets/about-us/Deco-line.svg" alt="" srcset="" />
+    <div class="head-title">
+      <h1 style="font-size: 35px; font-weight: 400; margin-bottom: 0px">
+        Why cutomers love
+      </h1>
+      <h1
+        style="
+          font-size: 35px;
+          font-weight: 700;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        "
+      >
+        working with us
+      </h1>
+    </div>
+    <div class="card-title">
+      <div style="height: 181px"><img src="assets/working/11.svg" /></div>
+      <p class="title">
+        Without any doubt I recommend Alcaline Solutions as one of the best web
+        design and digital marketing agencies. One of the best agencies I’ve
+        came across so far. Wouldn’t be hesitated to introduce their work to
+        someone else.
+      </p>
+
+      <div class="quote">
+        <div></div>
+        <img src="assets/working/22.svg" />
+      </div>
+    </div>
+    <div class="card-image">
+      <div
+        *ngFor="let position of listNameData; let i = index"
+        class="card-image-sub"
+      >
+        <img [src]="position.imageSrc" alt="" />
+        <img src="assets/working/star.svg" alt="" />
+        <p class="text-pos" [ngClass]="{ active: i === 2 }">
+          {{ position.name }}
+        </p>
+        <p class="text-pos1" [ngClass]="{ sActive: i === 2 }">
+          {{ position.position }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
